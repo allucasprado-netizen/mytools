@@ -1,5 +1,5 @@
-from MYTOOLS import *
+import MYTOOLS as MT
 x = int(input())
 y = int(input())
-print(pi_real(x))
-print(e_real(y))
+print(MT.pi_real(x))
+print(MT.e_real(y))
